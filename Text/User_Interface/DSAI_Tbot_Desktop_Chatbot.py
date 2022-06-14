@@ -42,6 +42,7 @@ if __name__=="__main__":
 
     base = Tk() #creates tinker object
     base.title("Jothi - DeepSphere's Chatbot") #window title
+    base.iconbitmap('./static/DSAI_Tbot_Logo.ico')
     base.geometry("800x500") #window dimension
     base.resizable(width=FALSE, height=FALSE) #window is not resizable
 
