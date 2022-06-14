@@ -46,7 +46,7 @@ if __name__=="__main__":
     base.resizable(width=FALSE, height=FALSE) #window is not resizable
 
     #Create Chat window
-    ChatLog = Text(base, bd=0, bg="white", height="8", width="100", font="Arial")
+    ChatLog = Text(base, bd=0, bg="LightBlue1", height="8", width="100", font="Arial", foreground='black')
     ChatLog.config(state=DISABLED)
 
     #Bind scrollbar to Chat window
@@ -59,7 +59,7 @@ if __name__=="__main__":
                         command= send_message) #send function is event loop
 
     #Create the box to enter message
-    EntryBox = Text(base, bd=0, bg="white", width="60", height="5", font="Arial")
+    EntryBox = Text(base, bd=0, bg="aquamarine", width="60", height="5", font="Arial")
 
     #Place all components on the screen
     scrollbar.place(x=784, y=6, height=386)
